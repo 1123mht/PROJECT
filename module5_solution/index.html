@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div><img src="./images/logo.png" alt="./images" height="100" width="100"></div>
+          </a>
+           <div class="navbar-brand">
+            <a href="index.html"><h1 style="color:red; font-size: 40px;">Apana Dhaba</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Mohit Certified">
+              <span>Mohit Certified</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="butt" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="," onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>7458863464</span></a><div><mark>We Deliver</mark></div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    7458863464
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div id="main-content" class="container"></div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span style="color: rgb(153, 255, 0);">Hours:</span><br>
+          Sun-Thurs: 10:15am - 12:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span style="color: blueviolet;&#128540;">Address:</span><br>
+          318/41, Kakad Corner, Marol Pipeline, Andheri - Kurla Rd, Andheri East, Mumbai, Maharashtra 400059<br>
+          Mumbai,400059
+          <p><br> <mark>Noted</mark> -Delivery area within 3-4 miles, with minimum order of RS20 plus  charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p><mark>एक बार आओ, बार-बार खाओ</mark></p>
+          <p><mark>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</mark></p><br>
+          <p><mark>60 रुपये में मिलेगा खाना</mark></p>
+        </section>
+      </div>
+    </div>
+</html>
